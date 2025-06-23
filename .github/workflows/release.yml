@@ -146,4 +146,4 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: "${{ steps.docker_tag.outputs.docker_tag }},latest"
+          tags: "${{ steps.docker_tag.outputs.docker_tag }}"
